@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         userViewModel.onCreate()
+        //creacion de valores para ingresar a la siguiente pantalla con una clave
         binding.button0.setOnClickListener {numeroPresionado("0")}
         binding.button1.setOnClickListener {numeroPresionado("1")}
         binding.button2.setOnClickListener {numeroPresionado("2")}
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         binding.button9.setOnClickListener {numeroPresionado("9")}
         binding.buttonClear.setOnClickListener { binding.textviewclave.setText("") }
         binding.buttonGo.setOnClickListener {
+            //creacion de clave predefinida
             if (binding.textviewclave.text.equals("123")) {
                 val intent = Intent(this, MainActivity2::class.java).apply {
                 }
@@ -42,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+    //funcion para concatenar cadenas de estrin en el textview
     private fun numeroPresionado(digito:String){
         binding.textviewclave.text= "${binding.textviewclave.text}$digito"
     }

@@ -344,13 +344,14 @@
         app:layout_constraintTop_toTopOf="@+id/guideline31" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButtonpersona1.1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/gris"
+        android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/guideline24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline23"
@@ -388,13 +389,14 @@
         app:layout_constraintGuide_percent="0.74" />
 
     <ImageButton
-        android:id="@+id/imageButton1"
+        android:id="@+id/imageButtonpersona1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/gris"
+        android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/guideline24"
         app:layout_constraintEnd_toStartOf="@+id/guideline19"
         app:layout_constraintStart_toStartOf="parent"
@@ -431,7 +433,7 @@
         app:layout_constraintGuide_percent="0.5265625" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButtonpersona2.1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
@@ -535,7 +537,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline36" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/imageButtonpersona3"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -544,6 +546,7 @@
         android:background="@color/verde"
         android:gravity="center"
         android:textColor="@color/white"
+        android:clickable="true"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline26"
         app:layout_constraintEnd_toStartOf="@+id/guideline19"
@@ -553,7 +556,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/imageButtonpersona3.1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
@@ -562,6 +565,7 @@
         android:background="@color/verde"
         android:gravity="center"
         android:textColor="@color/white"
+        android:clickable="true"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline26"
         app:layout_constraintEnd_toEndOf="parent"
@@ -682,7 +686,7 @@
         app:layout_constraintGuide_percent="0.6" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButtonpersona4"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -695,12 +699,13 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
         app:layout_constraintEnd_toStartOf="@+id/guideline19"
         app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
         app:layout_constraintTop_toTopOf="@+id/guideline26"
         app:srcCompat="@drawable/impresora"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/imageButtonpersona4.1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
@@ -709,6 +714,7 @@
         android:background="@color/naranja"
         android:gravity="center"
         android:textColor="@color/white"
+        android:clickable="true"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
         app:layout_constraintEnd_toEndOf="parent"
@@ -827,13 +833,14 @@
         app:layout_constraintGuide_percent="0.76" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/imageButtonpersona5"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/celeste"
+        android:clickable="true"
         android:gravity="center"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -845,7 +852,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/imageButtonperosna5.1"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
@@ -854,6 +861,7 @@
         android:background="@color/celeste"
         android:gravity="center"
         android:textColor="@color/white"
+        android:clickable="true"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline28"
         app:layout_constraintEnd_toEndOf="parent"
@@ -958,7 +966,7 @@
         tools:ignore="TextContrastCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/imageButtonpersona2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"

@@ -1,7 +1,7 @@
 package com.example.apiaybpos.data.model
 
 import com.google.gson.annotations.SerializedName
-
+//variables a llamar desde la API
 data class userModel (@SerializedName("orderId") val orderId:Int,
                       @SerializedName("username") val username: String,
                       @SerializedName("subTotal") val subTotal: Double,

@@ -7,6 +7,7 @@ import kotlinx.coroutines.withContext
 
 
 class userService {
+    //retrofit utilizado para conectar con la API desde la interfaz y el objeto configurado para la API
     private val retrofit= RetrofitHelper.getRetrofit()
     suspend fun getUsers():List<userModel>{
         return withContext(Dispatchers.IO){
